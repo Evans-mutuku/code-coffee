@@ -118,6 +118,7 @@ async def main(url, search_text, response_route):
 
         await browser.close()
 
+    # async with 
 if __name__ == "__main__":
     # test script
     asyncio.run(main(AMAZON, "ryzen 9 3950x"))
